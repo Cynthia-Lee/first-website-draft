@@ -42,17 +42,20 @@
   padding-right:30px;
 }
 
-.banner {
-	background: black;
+.mainB {
 	text-align: center;
 	padding: 30px 0px 15px 0px;
-	color: white;	
+	color: black;	
+	font-family: Roboto;
+	font-weight: bold;
+	color: #3a4145;
 }
 
-.banner h1 {
+.mainB h1 {
 	font-size: 40px;
+	font-weight: bold;
 }
 
-.banner p {
-	font-size: 15px;
+.mainB p {
+	font-size: 25px;
 }
