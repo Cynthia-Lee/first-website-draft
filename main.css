@@ -26,6 +26,9 @@
 	padding: 0px 45px;
 }
 */
+body .self{
+	font-family: 'Roboto', sans-serif;
+}
 
 .navbar .navbar-nav {
   display: inline-block;
@@ -76,9 +79,21 @@
     height: 430px;
     overflow: auto;
 }*/
-
 .thumbnail img{
     width: 100%;
     height: auto;
     display: block;
+}
+
+.self img {
+	margin-right: 30px;
+}
+/*
+.self p{
+   word-wrap: break-word;
+   width: 900px;
+}
+*/
+.self h1 {
+	font-weight: bold;
 }
