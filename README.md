@@ -1,2 +1,2 @@
-# cynth.github.io
+# cynthia-lee.github.io
 Personal Website
