@@ -5,7 +5,7 @@
 		<link rel='icon' href='Logo.jpg' type='image/x-icon'/ >
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 		<link rel="stylesheet" type="text/css"
 		href="main.css"/>
@@ -48,22 +48,16 @@
 		<div class="self">
 			<div class="container-fluid">
 			   <div class="row">
+			   		<!-- </div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2"> -->
 			   		<div class="col-lg-8 col-lg-offset-2">
 			   			<h1>About me</h1>
-			   			<img src="Self2017.jpg" alt="Photo of Cynthia" width="204.5" height="265.667" align="left">
-			   			<h2>Cynthia Lee</h2>
+			   			<img src="Self2017.jpg" alt="Photo of Cynthia" width="204.5" height="265.667" align="left" id="profilepic">
+			   			<!--<img class="img-responsive" src="Self2017.jpg" alt="Photo of Cynthia" width="204.5" height="265.667">-->
 
-			   			<p>
-							<strong>Education:</strong> <br>
-							Stony Brook University, pursuing Bachelor's in Computer Science<br>
-							Freshman graduating in May 2021<br>
-							<strong>Organizations and Activities:</strong> <br>
-							Women in Science and Engineering <a href="http://www.stonybrook.edu/commcms/wise/index.php" target="_blank">(WISE)</a>, Women in Computer Science Member & Shadowing Mentee <a href="http://www3.cs.stonybrook.edu/~wics/" target="_blank">(WiCS)</a><br>
-						</p>
-						<p>
-							As a freshman I want to gain more skills in computer science and to experience working in the field. I'm passionate to learn new things. I have communication and leadership skills from being on my high school robotics team. In addition, I have coding, robotics and autocad skills. Some fun facts about me is that on my spare time I enjoy to watch videos on woodworking, 3d printing and people creating professional props and costumes. 
-							<a href="art.html">I also sculpt, draw/paint</a> and enjoy watching and playing videogames.
-						</p>
+<!--			   		</div> -->
+
+<!-- <div class="col-lg-6 col-md-6" id="bio"> -->
+			   					   			
 
 						<!--
 						<p>
@@ -81,33 +75,50 @@
 						</div>		
 						-->
 
-						<div id="accordion">
-						  <div class="card">
-						    <div class="card-header" id="headingTwo">
-						      <h5 class="mb-0">
-						        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						          College Career
-						        </button>
-						      </h5>
-						    </div>
-						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-						      <div class="card-body">
-						      	
-						      	My <a href="http://www.stonybrook.edu/sb/bulletin/current/courses/cse/" target="_blank">CS Courses</a> Progress<br>
-						      	<hr>
-						      	Taken:
-						        <ul>
-						        	<li>CSE 114 - Introduction to Object-Oriented Programming</li>
-						        </ul>
-						        Currently taking:
-						        <ul>
-						        	<li>CSE 214 - Data Structures</li>
-						        	<li>CSE 215 - Foundations of Computer Science</li>
-						        </ul>
-						      </div>
-						    </div>
-						  </div>
-						  <div class="card">
+					<h2>Cynthia Lee</h2>
+
+			   			<p>
+							<strong>Education:</strong> <br>
+							Stony Brook University, pursuing Bachelor's in Computer Science<br>
+							Freshman expected to graduate in May 2021<br>
+							<strong>Organizations and Activities:</strong> <br>
+							Women in Science and Engineering <a href="http://www.stonybrook.edu/commcms/wise/index.php" target="_blank">(WISE)</a>, Women in Computer Science Secretary & Member <a href="http://www3.cs.stonybrook.edu/~wics/" target="_blank">(WiCS)</a><br>
+						</p>
+						<p>
+							As a freshman I want to gain more skills in computer science and to experience working in the field. I'm passionate to learn new things. I have communication and leadership skills from being on my high school robotics team. In addition, I have coding, robotics and autocad skills. Some fun facts: on my spare time I enjoy to watch videos on woodworking, 3d printing and people creating professional props and costumes. 
+							<a href="art.html">I also sculpt, draw/paint</a> and enjoy watching and playing videogames.
+						</p>
+
+
+
+
+<div id="accordion">
+						  	<div class="card">
+							    <div class="card-header" id="headingTwo">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          College Career
+							        </button>
+							      </h5>
+							    </div>
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							      <div class="card-body">
+							      	
+							      	My <a href="http://www.stonybrook.edu/sb/bulletin/current/courses/cse/" target="_blank">CS Courses</a> Progress<br>
+							      	<hr>
+							      	Taken:
+							        <ul>
+							        	<li>CSE 114 - Introduction to Object-Oriented Programming</li>
+							        </ul>
+							        Currently taking:
+							        <ul>
+							        	<li>CSE 214 - Data Structures</li>
+							        	<li>CSE 215 - Foundations of Computer Science</li>
+							        </ul>
+							      </div>
+							    </div>
+							</div>
+						<div class="card">
 						    <div class="card-header" id="headingThree">
 						      <h5 class="mb-0">
 						        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -116,7 +127,7 @@
 						      </h5>
 						    </div>
 						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-						      <div class="card-body">
+						        <div class="card-body">
 						        I went to Midwood High School and graduated with a cumulative average of 97. I've spent a lot of time on robotics and was on my school's FTC robotics team for two years. I really enjoyed building and coding robots. You could usually find me in the robotics room working on our FTC robot.
 						        <hr>
 						        <p>
@@ -129,32 +140,85 @@
 									<ul>
 										<li>Personal: Dean’s Honor Roll (2017), CET Award in Computer Programming (2017), Arista and Archon society (2017); The Haney Medal (2014) The School Art League</li>
 										<li>Robotics: FTC New York Qualifiers (2016 – 2017) Winning Alliance Award, Inspire First Place Award, Control Award</li>
-									</ul>
-									
+									</ul>	
 								</p>
-
 						      </div>
 						    </div>
-						  </div>
 						</div>
-
-
 					</div>
 
 
-
-
-
-
-
+</div>
 
 			   	</div>
 			</div> 	
 		</div>
-			
 
-		
 
+
+		<!--
+		<div class="container-fluid">
+			   <div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div id="accordion">
+						  	<div class="card">
+							    <div class="card-header" id="headingTwo">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          College Career
+							        </button>
+							      </h5>
+							    </div>
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							      <div class="card-body">
+							      	
+							      	My <a href="http://www.stonybrook.edu/sb/bulletin/current/courses/cse/" target="_blank">CS Courses</a> Progress<br>
+							      	<hr>
+							      	Taken:
+							        <ul>
+							        	<li>CSE 114 - Introduction to Object-Oriented Programming</li>
+							        </ul>
+							        Currently taking:
+							        <ul>
+							        	<li>CSE 214 - Data Structures</li>
+							        	<li>CSE 215 - Foundations of Computer Science</li>
+							        </ul>
+							      </div>
+							    </div>
+							</div>
+						<div class="card">
+						    <div class="card-header" id="headingThree">
+						      <h5 class="mb-0">
+						        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						          High School Career
+						        </button>
+						      </h5>
+						    </div>
+						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						        <div class="card-body">
+						        I went to Midwood High School and graduated with a cumulative average of 97. I've spent a lot of time on robotics and was on my school's FTC robotics team for two years. I really enjoyed building and coding robots. You could usually find me in the robotics room working on our FTC robot.
+						        <hr>
+						        <p>
+									Classes I've enjoyed:
+									<ul>
+										<li>Robotics: Robotics 1, Advanced Robotics 2, Mechatronics, AutoCAD</li>
+										<li>Math/Science: AP Computer Science, AP Calculus AB, AP Statistics</li>
+									</ul>
+									Awards:
+									<ul>
+										<li>Personal: Dean’s Honor Roll (2017), CET Award in Computer Programming (2017), Arista and Archon society (2017); The Haney Medal (2014) The School Art League</li>
+										<li>Robotics: FTC New York Qualifiers (2016 – 2017) Winning Alliance Award, Inspire First Place Award, Control Award</li>
+									</ul>	
+								</p>
+						      </div>
+						    </div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		-->
 		
 		<!--
 		<div class="skills">
@@ -174,12 +238,12 @@
 		-->
 		<div class="container-fluid">
 			<div class="row" id="s">
-				<div class="col-lg-8 col-lg-offset-2">
+				<div class="col-xs-6 col-xs-offset-2"> <!-- <div class="col-lg-8 col-lg-offset-2"> -->
 					<!-- <div class="c"> -->
 					<h2>Skills</h2>
 					<div id="sk">
 						<ul>
-							<i class="fa fa-laptop" style="font-size:36px;"></i>
+							<i class="fas fa-laptop" style="font-size:36px;"></i>
 							<li>Java</li>
 							<li>Android Studio</li>
 							<li>Html</li> 
@@ -188,40 +252,83 @@
 					</div>
 					<div id="sk">
 						<ul>
-							<i class="fa fa-files-o" style="font-size:36px;"></i>
+							<i class="far fa-file" style="font-size:36px;"></i>
 							<li>Microsoft Excel</li>
 							<li>Microsoft Powerpoint</li>
 							<li>Microsoft Word</li>
+							<li>Google Apps</li>
 						</ul>
 					</div>
 					<div id="sk">
 						<ul>
-							<i class="fa fa-cogs" style="font-size:36px;"></i>
+							<i class="fas fa-cogs" style="font-size:36px;"></i>
 							<li>Autodesk Inventor</li>
 							<li>Robotics</li>
 							<li>RobotC</li>
 							<li>Lego Mindstorms</li>
 						</ul>
 					</div>
+
+				</div>
+
+<div class="col-xs-3 col-xs-offset-1"> <!-- <div class="col-xs-4"> -->
+				<div id="sk">
+				<div id="linkcol">
+				<p>Links:</p>
+				<ul class="eachLink">
+					<li><a href="https://github.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fab fa-github" style="font-size:32px;"></i></div>Github</a></li>
+					<li><a href="https://devpost.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fas fa-lightbulb" style="font-size:32px;"></i></div>Devpost</a></li>
+					<li><a href="https://stonybrook.joinhandshake.com/users/6797971" target="_blank"><div id="boxed"><i class="far fa-handshake" style="font-size:32px;"></i></div>Handshake</a></li>
+				</ul>
+				</div>
+</div>
+</div>
+
+
+
 					<!-- </div> -->
 				</div>	
+
+				<!--
+<div class="col-lg-3 col-lg-offset-1">
+				<div id="sk">
+					<div class="links">
+			<p>Links:</p>
+			<ul class="eachLink">
+				<li><a href="https://github.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fab fa-github" style="font-size:32px;"></i></div>Github</a></li>
+				<li><a href="https://devpost.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fas fa-lightbulb" style="font-size:32px;"></i></div>Devpost</a></li>
+				<li><a href="https://stonybrook.joinhandshake.com/users/6797971" target="_blank"><div id="boxed"><i class="far fa-handshake" style="font-size:32px;"></i></div>Handshake</a></li>
+			</ul>
+		</div>
+
+</div>
+</div>
+
+-->
+
+
 			</div>
 		</div>
+
 		
 
 
       
 
-
+<!--
 
 		<div class="links">
 			<p>Links:</p>
-			<ul>
-				<li><a href="https://github.com/Cynthia-Lee">Github</a></li>
-				<li><a href="https://devpost.com/Cynthia-Lee">Devpost</a></li>
-				<li><a href="https://stonybrook.joinhandshake.com/users/6797971">Handshake</a></li>
+			<ul class="eachLink">
+				<li><a href="https://github.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fab fa-github" style="font-size:32px;"></i></div>Github</a></li>
+				<li><a href="https://devpost.com/Cynthia-Lee" target="_blank"><div id="boxed"><i class="fas fa-lightbulb" style="font-size:32px;"></i></div>Devpost</a></li>
+				<li><a href="https://stonybrook.joinhandshake.com/users/6797971" target="_blank"><div id="boxed"><i class="far fa-handshake" style="font-size:32px;"></i></div>Handshake</a></li>
 			</ul>
 		</div>
+
+-->
+		
+
 
 		<p>
 			More about me:

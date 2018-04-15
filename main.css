@@ -91,8 +91,9 @@ i {
 }
 */
 .self img {
-	margin-right: 35px;
+	/*margin-right: 35px;*/
 	margin-top: 10px;
+	/*margin-bottom: 15px;*/
 }
 /*
 .self p{
@@ -107,7 +108,15 @@ i {
 
 .self h2 {
 	font-size: 20px;
-	margin-top: 16px;
+	/*margin-top: 68px;*/
+}
+
+.self p {
+	font-size: 15px;
+}
+
+.self #profilepic {
+	margin-right: 35px;
 }
 /*
 .self {
@@ -156,9 +165,14 @@ i {
 
 #sk ul {
     list-style: none;
-    padding: 0px 30px;
-    padding-bottom: 25px;
+    padding: 0px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    /*padding: 0px 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;*/
 }
+
 /*
 .c {
     width:800px;
@@ -166,13 +180,41 @@ i {
     text-align:center;
 }
 */
-#sk i {
+#sk .fa-laptop, .fa-file, .fa-cogs {
 	margin-bottom: 10px;
 }
 
 .links {
 	clear: both;
 }
+
+.links li {
+	/*margin-bottom: 5px;*/
+}
+
+#linkcol {
+	margin-top: 18px;
+}
+
+#linkcol p {
+	font-size: 20px;
+}
+
+#boxed {
+	width:50px; /*80*/
+    height:50px; /*80*/
+    background-color:white;
+    /*line-height:80px;*/
+    line-height: 65px;
+    text-align:center;
+    vertical-align:middle;
+    display:inline-block;
+}
+
+.links .fa-github, .fa-lightbulb, .fa-handshake {
+	
+}
+
 /*
 .center {
     margin: auto;
