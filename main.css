@@ -127,6 +127,10 @@ i {
     border-color: gray !important;
     width: 14.6em;
 }
+
+.intro {
+	overflow: hidden;
+}
 /*
 .btn.btn-square {
   border-radius: 0;
@@ -144,7 +148,7 @@ i {
 */
 #s {
 	background-color: lightgrey;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 #s h2 {
@@ -153,6 +157,11 @@ i {
 	font-weight: bold;
 	font-size: 25px;
 	padding: 10px 0px 20px 0px;
+}
+
+#s h4 {
+	font-weight: bold;
+	font-size: 22px;
 }
 
 #sk {
