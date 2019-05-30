@@ -1,2 +1,4 @@
-# cynthia-lee.github.io
-Personal Website
+# first-website-draft
+Personal Website Draft
+
+Trying things out!
