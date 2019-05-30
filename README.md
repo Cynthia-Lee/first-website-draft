@@ -1,4 +1,4 @@
 # first-website-draft
 Personal Website Draft
 
-Trying things out!
+My first website. Trying things out!
